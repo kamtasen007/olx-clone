@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+
+            <img src="images/img2.jpg">
+            <div class="country" id="country">
+                <div class="select">
+                    <p id="text">Select your country</p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+                <ul class="option_box" id="List">
+
+                    <li class="option" onclick="myFunction('kerla')"><i class="fa-solid fa-location-dot"></i>
+                        <p>Bhopal</p>
+                    </li>
+
+                    <li class="option" onclick="myFunction('Mahrastra')"><i class="fa-solid fa-location-dot"></i>
+                        <p>Indore</p>
+                    </li>
+
+                    <li class="option" onclick="myFunction('Tamil Nandu')"><i class="fa-solid fa-location-dot"></i>
+                        <p>Gwalior</p>
+                    </li>
+
+                    <li class="option" onclick="myFunction(' Chennaai')"><i class="fa-solid fa-location-dot"></i>
+                        <p>Sagar</p>
+                    </li>
+
+                    <li class="option" onclick="myFunction('Indore')"><i class="fa-solid fa-location-dot"></i>
+                        <p>Itarsi</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="Search_box">
+                <input type="text" class="searchclass" id="search" placeholder="Find Cars,mobiles,Phones">
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+
+
+            </div>
+
+            <div class="langauge">
+                <p id="eng_tag">English</p>
+
+                <ul class="hin_eng">
+                    <li onclick="Langauge('English')">English</li>
+                    <li onclick="Langauge('Hindi')">Hindi </li>
+                </ul>
+            </div>
+
+            <div class="massage">
+                <i class="fa-solid fa-comment"></i>
+            </div>
+
+            <div class="massage">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <div class="your_logo">
+                <div class="images/boy_img" id="boy_img_id">
+                    <img src="images/kamta.jpg">
+                </div>
+
+            </div>
+
+            <div class="dropdown" id="dropdownid">
+                <div class="nameandimg">
+                    <img src="images/kamta.jpg">
+                    <p>Kamta Prasad Sen</p>
+                </div>
+                <hr>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <p>My Account</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-box"></i>
+                        <p>My Orders</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-question"></i>
+                        <p>Help</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Setting</p>
+                    </li>
+                    <hr>
+
+                    <li>
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <p>Log out</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="selling_page">
+                <button><i class="fa-solid fa-plus"></i>
+                    <P>Sell</P>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="ad_img">
+        <img src="images/olx1.jpg">
+
+    </div>
+
+    <!------------------------------------------------Product-------------------------------------------------------------->
+
+    <div class="product">
+
+        <div class="first_row">
+
+            <div class=box>
+
+                <img src="images/image1.jpg">
+                <h2>Rs.7,50,000</h2>
+                <p>2014 - 1,10,000KM</p>
+                <p>Hyundai Elentra 2014-2015 CRDI SX</p>
+                <div class="address_data">
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image2.JPG">
+                <h2>Rs.25000</h2>
+                <p>IpHONE 11 with bill warrenty and accessories</p>
+                <div class="address_data">
+                    <p>Samudrapur Maharastra</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image3.jpg">
+                <h2>Rs.6,000</h2>
+                <p>Only bads Available</p>
+                <div class="address_data">
+                    <p>Samudrapur Maharastra</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image4.jpg">
+                <h2>Rs.12,500</h2>
+                <p>4500 LM M18 ANDROID WIFI BLUETOOTH</p>
+                <div class="address_data">
+                    <p>Samudrapur Maharastra</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product">
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image5.jpg">
+                <h2>Rs.22,600</h2>
+                <p>4K 3D 5500 ANDROID WIFI BLUETOOTH</p>
+                <div class="address_data">
+                    <p>Samudrapur Maharastra</p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image6.jpg">
+                <h2>Rs.10000</h2>
+                <p>physically handicap Certificate Consultant</p>
+                <div class="address_data">
+                    <p>Samudrapur Maharastra</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image7.jpg">
+                <h2>Rs.15000</h2>
+                <p>iphone13.128 .GB.Memory</p>
+                <div class="address_data">
+                    <p>Samdrapur,Maharastra</p>
+
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image8.jpg">
+                <h2>Rs.1000</h2>
+                <p>IDFC First credit card @Free</p>
+                <div class="address_data">
+                    <p>Samdrapur,Maharastra</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image9.jpg">
+                <h2>Rs.411</h2>
+                <p>ab wheel roller gym equipment</p>
+                <div class="address_data">
+                    <p>Samdrapur,Maharastra</p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image10.jpg">
+                <h2>Rs.499</h2>
+                <p>Stylish ,Fashionist Men shirts</p>
+                <div class="address_data">
+                    <p>Samdrapur,Maharastra</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image11.jpg">
+                <h2>Rs.3,500</h2>
+                <p>RD6 LED projector 3d 4k wifi smart</p>
+                <div class="address_data">
+                    <p>Samdrapur,Maharastra</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image12.jpg">
+                <h2>Rs.47,807</h2>
+                <p>SPD-SX sampling eletronic drum</p>
+                <div class="address_data">
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product">
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image13.jpg">
+                <h2>Rs.23,500</h2>
+                <p>Samsung galaxy Z fold 3 Available</p>
+                <div class="address_data">
+                    <p>bhopal</p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image14.jpg">
+                <h2>Rs.815</h2>
+                <p>Bluetooth Combo pack</p>
+                <div class="address_data">
+                    <p>Indore</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image15.jpg">
+                <h2>Rs.1600</h2>
+                <p>Antique maritime victorial bag</p>
+                <div class="address_data">
+                    <p>Indore</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image16.jpg">
+                <h2>Rs.3999</h2>
+                <p>YOU CAN MAKE EXISTING OLD TV AND REMOTE</p>
+                <div class="address_data">
+                    <p>Gwalior</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image17.JPG">
+                <h2>Rs.711</h2>
+                <p>Portable Bluetooth speaker</p>
+                <div class="address_data">
+                    <p>Guna</p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image18.jpg">
+                <h2>Rs.3300</h2>
+                <p>RDD2 LED 3D 4K PROJECTOR WIFI</p>
+                <div class="address_data">
+                    <p>punjab</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image19.jpg">
+                <h2>Rs.1600</h2>
+                <p>Antique brass sundail and compass</p>
+                <div class="address_data">
+                    <p>Bihar</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image20.jpg">
+                <h2>Rs.20,000</h2>
+                <p>New apple Iphone Available in best price</p>
+                <div class="address_data">
+                    <p>Patna</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product">
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image21.jpg">
+                <h2>Rs.43000</h2>
+                <p>New apple Iphone Available in good price</p>
+                <div class="address_data">
+                    <p>Bhopa</p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image22.jpg">
+                <h2>Rs.22,500</h2>
+                <p>Hp 830 5G core 8th generation </p>
+                <div class="address_data">
+                    <p>Bhopal</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image23.jpg">
+                <h2>Rs.999</h2>
+                <p>Plastic pack of 36 </p>
+                <div class="address_data">
+                    <p>Indore</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image23.jpg">
+                <h2>Rs.1399</h2>
+                <p>Special Stainless steel gift Set</p>
+                <div class="address_data">
+                    <p>Indore</p>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+
+<div class="load_more">
+
+    <button id="Load_more_id">Load More</button>
+
+    <div class="Load_more_product" id="load_more_product_id">
+
+        <div class="first_row">
+            <div class=box>
+                <img src="images/image25.jpg">
+                <h2>Rs.350</h2>
+                <p>Onion Seed oil</p>
+                <div class="address_data">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image26.jpg">
+                <h2>Rs.599</h2>
+                <p></p>
+                <div class="address_data">
+                    <p>Wired Headphone</p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image27.jpg">
+                <h2>Rs.866</h2>
+                <p>T55 smart Watches</p>
+                <div class="address_data">
+                    <p></p>
+
+                </div>
+            </div>
+
+            <div class=box>
+                <img src="images/image28.jpg">
+                <h2>Rs.488</h2>
+                <p>Push Up bar for gym and home</p>
+                <div class="address_data">
+                    <p></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="download_App">
+        <div class="download">
+            <img src="images/phone-app.jpg" class="images">
+            <div class="text">
+                <h1>TRY THE OLX APP</h1>
+                <p>Buy, sell and find just about anything using the app on your mobile.</p>
+            </div>
+            <div class="download_store">
+                <h5>GET YOUR APP TODAY</h5>
+                <img src="images/appstore.jpg">
+                <img src="images/playstore.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_footer">
+        <div class="footer">
+            <div class="footer_box">
+                <h3> POPULAR LOCATIONS</h3>
+                <p>Kolkata</p>
+                <P>Mumbai</P>
+                <p>Chennai</p>
+                <p>Pune</p>
+            </div>
+
+            <div class="footer_box">
+                <h3> TRENDING LOCATIONS</h3>
+                <p>Bhubaneshwar</p>
+                <P>Hyderabad</P>
+                <p>Chandigarh</p>
+                <p>Nashik</p>
+            </div>
+
+            <div class="footer_box">
+                <h3> ABOUT US</h3>
+                <p>About OLX Group</p>
+                <P>Careers</P>
+                <p>Contact Us</p>
+                <p>OLXPeople</p>
+                <p>Waah Jobs</p>
+            </div>
+
+            <div class="footer_box">
+                <h3> OLX</h3>
+                <p>Help</p>
+                <P>Sitemap</P>
+                <p>Sitemap</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</html>
